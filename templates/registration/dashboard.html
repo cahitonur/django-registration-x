@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <p>Welcome back <strong>{{ user.username }}</strong></p>
+
+    <p>Profile Type: {{ profile_type }}</p>
+    <p>Website: {{ profile.web_site }}</p>
+{% endblock %}
